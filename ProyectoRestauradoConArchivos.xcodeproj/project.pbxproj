@@ -6,6 +6,10 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		044C0FBD1FCB4E9E00D845BA /* Proyecto Restaurante Modificado.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 044C0FBC1FCB4E9E00D845BA /* Proyecto Restaurante Modificado.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		04685B591FCB4285007532F6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,7 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		044C0FB81FCB4E9D00D845BA /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		044C0FB91FCB4E9E00D845BA /* Modificar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modificar.h; sourceTree = "<group>"; };
+		044C0FBA1FCB4E9E00D845BA /* Orden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orden.h; sourceTree = "<group>"; };
+		044C0FBB1FCB4E9E00D845BA /* Factura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factura.h; sourceTree = "<group>"; };
+		044C0FBC1FCB4E9E00D845BA /* Proyecto Restaurante Modificado.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Proyecto Restaurante Modificado.cpp"; sourceTree = "<group>"; };
 		04685B5B1FCB4285007532F6 /* ProyectoRestauradoConArchivos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProyectoRestauradoConArchivos; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CC60AC1FCF3D8500CD69C0 /* Corte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Corte.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,12 @@
 		04685B5D1FCB4285007532F6 /* ProyectoRestauradoConArchivos */ = {
 			isa = PBXGroup;
 			children = (
+				044C0FBB1FCB4E9E00D845BA /* Factura.h */,
+				044C0FB81FCB4E9D00D845BA /* Menu.h */,
+				044C0FB91FCB4E9E00D845BA /* Modificar.h */,
+				044C0FBA1FCB4E9E00D845BA /* Orden.h */,
+				04CC60AC1FCF3D8500CD69C0 /* Corte.h */,
+				044C0FBC1FCB4E9E00D845BA /* Proyecto Restaurante Modificado.cpp */,
 			);
 			path = ProyectoRestauradoConArchivos;
 			sourceTree = "<group>";
@@ -113,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044C0FBD1FCB4E9E00D845BA /* Proyecto Restaurante Modificado.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
